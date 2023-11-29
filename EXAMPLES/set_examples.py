@@ -1,4 +1,9 @@
 
+data = [5, 9, 10, 5, 10, 10, 5, 9, 10]
+s = set(data)
+print(f"s: {s}")
+
+
 set1 = {'red', 'blue', 'green', 'purple', 'green'}  # create literal set
 set2 = {'green', 'blue', 'yellow', 'orange'}
 

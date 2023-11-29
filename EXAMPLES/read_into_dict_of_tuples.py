@@ -1,4 +1,3 @@
-
 from pprint import pprint
 
 knight_info = {}  # create empty dict
@@ -11,8 +10,10 @@ with open("../DATA/knights.txt") as knights_in:
 pprint(knight_info)
 print()
 
+#   key   value
 for name, info in knight_info.items():
     print(info[0], name)
 
 print()
+print(knight_info['Robin'])
 print(knight_info['Robin'][2])
