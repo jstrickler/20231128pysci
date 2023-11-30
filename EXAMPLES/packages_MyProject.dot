@@ -1,0 +1,11 @@
+digraph "packages_MyProject" {
+rankdir=BT
+charset="utf-8"
+"animal" [color="black", label=<animal>, shape="box", style="solid"];
+"insect" [color="black", label=<insect>, shape="box", style="solid"];
+"mammal" [color="black", label=<mammal>, shape="box", style="solid"];
+"reptile" [color="black", label=<reptile>, shape="box", style="solid"];
+"insect" -> "animal" [arrowhead="open", arrowtail="none"];
+"mammal" -> "animal" [arrowhead="open", arrowtail="none"];
+"reptile" -> "animal" [arrowhead="open", arrowtail="none"];
+}

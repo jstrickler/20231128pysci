@@ -23,4 +23,7 @@ for fruit in fruits:
 #     ws.cell(row=i, column=1).value = fruit
 #     ws.cell(row=i, column=2).value = len(fruit)
 
+ws = wb.create_sheet("wombats", 0)  # insert at beginning
+ws = wb.create_sheet("wolverines", 0)  # insert at beginning
+
 wb.save('fruits.xlsx')

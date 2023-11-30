@@ -1,0 +1,11 @@
+digraph "classes_MyProject" {
+rankdir=BT
+charset="utf-8"
+"animal.Animal" [color="black", fontcolor="black", label=<{Animal|name<br ALIGN="LEFT"/>species<br ALIGN="LEFT"/>|count()<br ALIGN="LEFT"/>die()<br ALIGN="LEFT"/>kill(obj)<br ALIGN="LEFT"/>make_sound()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"insect.Insect" [color="black", fontcolor="black", label=<{Insect|can_fly<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+"mammal.Mammal" [color="black", fontcolor="black", label=<{Mammal|gestation<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+"reptile.Reptile" [color="black", fontcolor="black", label=<{Reptile|has_legs<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+"insect.Insect" -> "animal.Animal" [arrowhead="empty", arrowtail="none"];
+"mammal.Mammal" -> "animal.Animal" [arrowhead="empty", arrowtail="none"];
+"reptile.Reptile" -> "animal.Animal" [arrowhead="empty", arrowtail="none"];
+}

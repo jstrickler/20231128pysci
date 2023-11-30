@@ -10,7 +10,8 @@ print(len(cd1))
 print(cd1)
 print('-' * 60)
 
-j1 = JokerDeck()
+# this is a comment
+j1 = JokerDeck()  # another comment
 print(f"j1: {j1}")
 j1.shuffle()
 print(f"j1.cards: {j1.cards}")

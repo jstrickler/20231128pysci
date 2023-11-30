@@ -10,7 +10,7 @@ def main():
     print()
 
     # same, but lower-case
-    print(ws['a1'].value)
+    print(ws['a1'].value)  # ws['C2'] = "Bob"
     print(ws['c2'].value, ws['b2'].value)
     print()
 
