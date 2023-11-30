@@ -6,7 +6,9 @@ try:
     print("z is", z)
 except TypeError as err:    # Catch TypeError
     print("Caught exception:", err)
+    exit()
 finally:
+    # clean up resources
     print("Don't care whether we had an exception")  # Print whether TypeError is caught or not
 
 print()

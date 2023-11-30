@@ -7,5 +7,6 @@ try:  # Execute code that might have a problem
 
 except TypeError as err:    # Catch the expected error; assign error object to err
     print("Naughty programmer! ", err)
+    # log the error here
 
 print("After try-except")  # Get here whether or not exception occurred

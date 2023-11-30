@@ -3,9 +3,9 @@ General geometry-related functions
 
 Syntax:
 
-area = circle_area(diameter)
-area = rectangle_area(length, width)
-area = square_area(side)
+    area = circle_area(diameter)
+    area = rectangle_area(length, width)
+    area = square_area(side)
 """
 import math   # load math.py
 
@@ -40,7 +40,10 @@ def square_area(side):
     """
     return side ** 2
 
-if __name__ == "__main__":
+print(f"*** My name is {__name__} ***")
+
+if __name__ == "__main__":  # if running this file as a script 
+    print("executing code in module...")
     area1 = square_area(15)
     print(f"area1: {area1}")
     
