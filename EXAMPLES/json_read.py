@@ -1,11 +1,11 @@
 from pprint import pprint
-import json
+import ujson
 
 # json.loads(STRING)     load from string
 # json.load(FILE_OBJECT) load from file-like object
 
 with open('../DATA/solar.json') as solar_in:  # open JSON file for reading
-    solar = json.load(solar_in)  # load from file object and convert to Python data structure
+    solar = ujson.load(solar_in)  # load from file object and convert to Python data structure
 
 # uncomment to see raw Python data
 # print('-' * 60)
