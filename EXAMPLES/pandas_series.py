@@ -14,18 +14,29 @@ print("s1:", s1, "\n")
 print("s2:", s2, "\n")
 
 print("selecting elements")
+
+print(f"s1['b']: {s1['b']}")
+print(f"s1['h']: {s1['h']}")
+print(f"s2[3]: {s2[3]}")
+print(f"s2[8]: {s2[8]}")
+
+  
+
 print(s1[['h', 'b']], "\n")  # select items from series
 
 print(s1[['a', 'b', 'c']], "\n")  # select items from series
 
 print("slice of elements")
-print(s1['b':'d'], "\n")  # select slice of elements
+print(s1['b':'d'], "\n")  # select slice of elements  s1['b'] through s1['d']
 
 print("sum(), mean(), min(), max():")
 print(s1.sum(), s1.mean(), s1.min(), s1.max(), "\n")  # get stats on series
 
 print("cumsum(), cumprod():")
 print(s1.cumsum(), s1.cumprod(), "\n")  # get stats on series
+
+print(f"s1[['b','d','h']].sum(): {s1[['b','d','h']].sum()}")
+
 
 print('a' in s1)  # test for existence of label
 print('m' in s1)  # test for existence of label

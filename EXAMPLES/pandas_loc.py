@@ -47,3 +47,6 @@ print(df.loc[:, ['gamma', 'alpha', 'epsilon']], "\n")
 
 print_header("df.loc[['b', 'e', 'a'], ['gamma', 'alpha', 'epsilon']]")  # iterables of rows and columns
 print(df.loc[['b', 'e', 'a'], ['gamma', 'alpha', 'epsilon']], "\n")
+
+#   DF.loc[ROW?,COL?]
+#   ROW? can be  ROW, [R1, R2, R3, ...]   R1:RN

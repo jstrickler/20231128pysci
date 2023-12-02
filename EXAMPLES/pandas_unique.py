@@ -11,5 +11,5 @@ party_counts = df['Political Party'].value_counts()
 print(party_counts)
 # plot the data
 plt.figure(figsize=(20.0,8.0))
-party_counts.plot(kind='barh')
+party_counts.plot(kind='bar')
 plt.show()

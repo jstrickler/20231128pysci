@@ -13,7 +13,7 @@ sample_data  /= 10  # Modify sample data
 
 float_file_name = 'save_data_float.txt'
 
-np.savetxt(float_file_name, sample_data, delimiter=",", fmt="%5.2f")  # Write data to text file as floats, rounded to two decimal places, using commas as delimiter
+np.savetxt(float_file_name, sample_data, delimiter=",", fmt="%.2f")  # Write data to text file as floats, rounded to two decimal places, using commas as delimiter
 
 int_file_name = 'save_data_int.txt'
 
